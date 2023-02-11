@@ -6,5 +6,5 @@ metadata:
   namespace: flux-system
 spec:
   image: joshgree/app-flux
-  interval: 1m0s
+  interval: 10s
 
