@@ -5,6 +5,8 @@ metadata:
   name: app-flux-dev
   namespace: flux-system
 spec:
+  imageRepositoryRef:
+    name: app-flux
   filterTags:
     pattern: '.*-rc.*'
   policy:
