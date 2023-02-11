@@ -5,8 +5,10 @@ metadata:
   name: app-flux
   namespace: flux-system
 spec:
+  secretRef:
+    name: app-flux
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/josh-gree/app_flux
+  url: ssh://git@github.com/josh-gree/app_flux
 
