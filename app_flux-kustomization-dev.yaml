@@ -11,5 +11,4 @@ spec:
   sourceRef:
     kind: GitRepository
     name: app-flux
-  targetNamespace: default
 
