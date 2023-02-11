@@ -11,8 +11,8 @@ spec:
         branch: main
     commit:
       author:
-        email: joshgree@users.noreply.github.com
-        name: joshgree
+        email: josh-gree@users.noreply.github.com
+        name: josh-gree
       messageTemplate: '{{range .Updated.Images}}{{println .}}{{end}}'
     push:
       branch: main
