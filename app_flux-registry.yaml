@@ -5,6 +5,6 @@ metadata:
   name: app-flux
   namespace: flux-system
 spec:
-  image: localhost:5001/app_flux
+  image: joshgree/app-flux
   interval: 1m0s
 
