@@ -1,0 +1,10 @@
+---
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: app-flux
+  namespace: flux-system
+spec:
+  image: localhost:5001/app_flux
+  interval: 1m0s
+
