@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   secretRef:
-    name: app-flux
+    name: flux-system
   interval: 30s
   ref:
     branch: main
