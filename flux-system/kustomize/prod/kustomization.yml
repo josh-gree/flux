@@ -1,0 +1,7 @@
+---
+namespace: prod
+bases:
+- ../base
+namePrefix: prod-
+patchesStrategicMerge:
+  - "deployment.yml"

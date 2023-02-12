@@ -1,0 +1,7 @@
+---
+namespace: dev
+bases:
+- ../base
+namePrefix: dev-
+patchesStrategicMerge:
+  - "deployment.yml"

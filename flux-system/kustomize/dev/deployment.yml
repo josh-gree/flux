@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  namespace: default
+spec:
+  replicas: 1
+  template:
+    spec:
+      containers:
+      - name: nginx
+        image: joshgree/app-flux:dev-cd261286193270a46785e9ffad3ef1c819ddbb59-1676216242 # {"$imagepolicy": "flux-system:app-flux-dev"}
