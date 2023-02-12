@@ -8,8 +8,9 @@ spec:
   imageRepositoryRef:
     name: app-flux
   filterTags:
-    pattern: '.*-rc.*'
+    pattern: '^dev-[a-fA-F0-9]+-(?P<ts>.*)'
+    extract: '$ts'
   policy:
-    semver:
-      range: '^1.x-0'
+    numerical:
+      order: asc
 
