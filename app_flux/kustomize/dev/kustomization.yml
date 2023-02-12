@@ -5,3 +5,5 @@ bases:
 namePrefix: dev-
 patchesStrategicMerge:
   - "deployment.yml"
+resources:
+  - "namespace.yml"

@@ -6,3 +6,5 @@ namePrefix: prod-
 patchesStrategicMerge:
   - "deployment.yml"
   - "service.yml"
+resources:
+  - "namespace.yml"
